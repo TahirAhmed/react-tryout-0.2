@@ -1,9 +1,7 @@
 var React = require('react');
 var MyButton = React.createClass({
 	componentWillMount: function() { console.log('MyButton.componentWillMount'); },
-	componentDidMount: function() {
-		console.log('MyButton.componentDidMount');
-	},
+	componentDidMount: function() { console.log('MyButton.componentDidMount'); },
 	componentWillReceiveProps: function() { console.log('MyButton.componentWillReceiveProps'); },
 	shouldComponentUpdate: function() { console.log('MyButton.shouldComponentUpdate'); },
 	componentWillUpdate: function() { console.log('MyButton.componentWillUpdate'); },

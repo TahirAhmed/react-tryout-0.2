@@ -1,5 +1,5 @@
 var React = require('react');
-var MyButton = require('./components/button.js');
+var ItemList = require('./components/item-list.js');
 var Application = React.createClass({
 	componentWillMount: function() { console.log('Application.componentWillMount'); },
 	componentDidMount: function() { console.log('Application.componentDidMount'); },
@@ -12,7 +12,7 @@ var Application = React.createClass({
 	getInitialState: function() { console.log('Application.getInitialState'); return null; },
 	render: function() {
 		console.log('Application.render');
-		return <div className="container"><MyButton /></div>;
+		return <div className="container"><ItemList /></div>;
 	}
 });
 
